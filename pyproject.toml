@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ingest-logger"
+version = "0.1.0"
+description = "Custom class for emitting log messages to Slack"
+authors = ["UA Libraries <turmanator@arizona.edu>"]
+license = "MIT"
+readme = "README.md"
+include = ["ingest_logger"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+slack-sdk = "3.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
